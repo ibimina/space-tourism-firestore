@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/ibimina/space-travel](https://github.com/ibimina/space-tuorism)
-- Live Site URL: [https://ibimina.github.io/space-travel](https://ibimina.github.io/space-tourism)
+- Solution URL: [https://github.com/ibimina/space-tourism](https://github.com/ibimina/space-tourism)
+- Live Site URL: [https://space-tourism-87d06.web.app/](https://space-tourism-87d06.web.app/)
 
 ## My process
 I had to redo this project using firebase for backend development because I notice that in my last repository the page didn't render to the browser because I was fetching data from my browser local host

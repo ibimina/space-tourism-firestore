@@ -1,0 +1,15 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match/destination/{document=**} {
+      allow read;
+    }
+     match/crew/{document=**} {
+      allow read;
+    }
+     match/technology/{document=**} {
+      allow read;
+    }
+  }
+}
+

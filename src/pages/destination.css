@@ -1,0 +1,77 @@
+.destination {
+  min-height: 100vh;
+  background-image: url("../../public/assets/destination/background-destination-mobile.jpg");
+  /* padding: 2em; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.dec-con{
+  padding: 2em 2em 0;
+}
+.planet{
+  margin: 2em auto;
+}
+.btn-con{
+
+ display: flex;
+ justify-content: center;
+ gap: 1.5em;
+ margin-bottom: 1em;
+}
+.name{
+  margin-bottom: .3em; 
+}
+.desc,.dist{
+  margin-bottom: 1em; 
+}
+.botm{
+   margin-bottom: .5em;  
+}
+.btn{
+  border: 0;
+  padding: .5em 0;
+  background-color: transparent;
+}
+.btn[aria-pressed="true"]{
+   border-bottom: 1px solid;
+}
+@media (min-width:45rem) {
+  .destination{
+    background-image: url("../../public/assets/destination/background-destination-tablet.jpg");
+  }
+  .des-pl{
+    text-align: left;
+  }
+    .btn{
+    cursor: pointer;
+  }
+}
+@media (min-width:60rem) {
+  .destination{
+   background-image: url("../../public/assets/destination/background-destination-desktop.jpg");
+  }
+  .dec-con{
+    padding-inline: 5em;
+  }
+  .planet{
+    max-height: 300px;
+  }
+  .wrapper{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+align-items: center;
+  text-align: left;
+  }
+  .btn-con{
+justify-content: flex-start ;
+  }
+  .avg{
+    border-top: 1px solid;
+    padding: 1em 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+}
